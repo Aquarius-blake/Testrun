@@ -26,7 +26,9 @@ class Home extends StatelessWidget {
             ),
           ),
             ),
-        ),]
+        ),
+            IconButton(icon: Icon(Icons.add_shopping_cart), onPressed: null)
+          ]
         ),
 
         backgroundColor: Colors.yellow[300],
