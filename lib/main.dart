@@ -50,7 +50,7 @@ class Home extends StatelessWidget {
           Container(
             color: Colors.grey[300],
             child: Center(
-              child: Text("Hello"),
+              child: Text('$dem'),
             )
           ),
           Container(
