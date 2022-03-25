@@ -4,7 +4,7 @@ void main() => runApp(MaterialApp(
   home: Home()
 ));
 
-int dem;
+int dem=1;
 
 class Home extends StatelessWidget {
 
