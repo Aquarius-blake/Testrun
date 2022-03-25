@@ -4,7 +4,7 @@ void main() => runApp(MaterialApp(
   home: Home()
 ));
 
-
+int dem;
 
 class Home extends StatelessWidget {
 
@@ -30,7 +30,11 @@ class Home extends StatelessWidget {
            Container(
              child:Padding(padding:EdgeInsets.fromLTRB(84.0, 0, 0, 0),
              child:  IconButton(
-                 icon: Icon(Icons.add_shopping_cart), onPressed: null
+                 icon: Icon(Icons.add_shopping_cart),
+                 onPressed: (){
+                   dem=23;
+                   print(dem);
+             }
              ),
            )
            ),
