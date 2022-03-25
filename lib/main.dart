@@ -27,7 +27,13 @@ class Home extends StatelessWidget {
           ),
             ),
         ),
-            IconButton(icon: Icon(Icons.add_shopping_cart), onPressed: null)
+           Container(
+             child:Padding(padding:EdgeInsets.fromLTRB(84.0, 0, 0, 0),
+             child:  IconButton(
+                 icon: Icon(Icons.add_shopping_cart), onPressed: null
+             ),
+           )
+           ),
           ]
         ),
 
