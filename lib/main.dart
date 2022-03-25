@@ -32,7 +32,8 @@ class Home extends StatelessWidget {
              child:  IconButton(
                  icon: Icon(Icons.add_shopping_cart),
                  onPressed: (){
-                   dem= dem +1;
+
+                   dem++;
                    print(dem);
              }
              ),
