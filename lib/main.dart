@@ -65,7 +65,7 @@ class Home extends StatelessWidget {
         onPressed: () {
           print("You are An idiot");
         },
-        child: Text("Begin"),
+        child: Text("Start"),
         backgroundColor: Colors.blue[300],
       ),
     );
