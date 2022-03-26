@@ -44,20 +44,24 @@ class Home extends StatelessWidget {
 
         backgroundColor: Colors.yellow[300],
       ),
-      body: Row(
+      body: Column(
+        children:<Widget>[
+      Row(
 
         children: <Widget>[
-          Container(
+          Center(
+         child: Container(
             color: Colors.grey[300],
-            child: Center(
               child: Text('$dem'),
-            )
+          ),
           ),
           Container(
             padding: EdgeInsets.fromLTRB(10, 0, 0, 455.0),
             child: Image.asset("Assets/bond.jpg"),
 
           )
+        ],
+      ),
         ],
       ),
 
