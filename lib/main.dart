@@ -45,8 +45,8 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.yellow[300],
       ),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-
+        mainAxisAlignment: MainAxisAlignment.end,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children:<Widget>[
       Row(
 
