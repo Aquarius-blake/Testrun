@@ -58,10 +58,13 @@ class Home extends StatelessWidget {
               child: Text('$dem'),
           ),
           ),
-          Container(
-            padding: EdgeInsets.fromLTRB(10, 0, 0, 455.0),
-            child: Image.asset("Assets/bond.jpg"),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              padding: EdgeInsets.fromLTRB(10, 0, 0, 455.0),
+              child: Image.asset("Assets/bond.jpg"),
 
+            ),
           )
         ],
       ),
