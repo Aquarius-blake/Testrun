@@ -15,6 +15,7 @@ class Ninjac extends StatelessWidget {
         title: Text("Ninja"),
         centerTitle: true,
         backgroundColor: Colors.red[300],
+        elevation: 0.0,
       ),
     );
   }
