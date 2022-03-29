@@ -31,7 +31,7 @@ class Ninjac extends StatelessWidget {
            ),
          ),
          Text(
-           "Sasuke",
+           "Sasuke Uchiha",
            style: TextStyle(
              color: Colors.deepOrange,
              letterSpacing: 2.0,
