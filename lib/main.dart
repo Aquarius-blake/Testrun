@@ -17,6 +17,7 @@ class Ninjac extends StatelessWidget {
           onPressed: (){
 
             trew= "Access Denied";
+
           },
           child: Text("Find"),
         ),
@@ -101,9 +102,7 @@ class Ninjac extends StatelessWidget {
            ],
          ),
          SizedBox(height: 10.0,),
-         AlertDialog(
-           content: Text("$trew"),
-         ),
+
          Text(
            "$trew",
            style: TextStyle(
