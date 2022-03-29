@@ -97,7 +97,7 @@ class Ninjac extends StatelessWidget {
              ),
               SizedBox(height: 10.0,),
              Text(
-               '$trew',
+               "help",
                style: TextStyle(
                  fontWeight: FontWeight.normal,
                  letterSpacing: 1.5,
