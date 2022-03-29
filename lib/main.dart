@@ -66,7 +66,10 @@ class Ninjac extends StatelessWidget {
              Icon(
                Icons.email,
                color: Colors.deepOrange,
-             )
+             ),
+             Text(
+               "Sukon@Deez.Nuts"
+             ),
 
            ],
          )
