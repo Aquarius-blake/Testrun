@@ -1,92 +1,85 @@
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
-  home: Home()
+  home: Ninjac()
 ));
 
-int dem=1;
-
-class Home extends StatelessWidget {
+class Ninjac extends StatelessWidget {
 
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
-
+    return Scaffold(
+      backgroundColor: Colors.grey[300],
       appBar: AppBar(
-        title:Row(
-          children:<Widget>[
-            Icon(Icons.insert_emoticon),
-            Center(
-          child: Padding(padding: EdgeInsets.fromLTRB(90.0, 0, 0, 0) ,
-          child:Text(
-            "Lesson 2",
-            style: TextStyle(
-                color: Colors.black
-            ),
-          ),
-            ),
-        ),
-           Container(
-             child:Padding(padding:EdgeInsets.fromLTRB(84.0, 0, 0, 0),
-             child:  IconButton(
-                 icon: Icon(Icons.add_shopping_cart),
-                 onPressed: (){
+        title: Text("Ninja"),
+        centerTitle: true,
+        backgroundColor: Colors.black,
+        elevation: 0.0,
+      ),
+      body: Padding(
+          padding: EdgeInsets.fromLTRB(30, 40, 30, 0),
+     child: Column(
+       crossAxisAlignment: CrossAxisAlignment.start,
+       children: <Widget>[
+         Text(
+           "Name",
+           style: TextStyle(
+             color: Colors.black,
+             letterSpacing: 2.0,
 
-                   dem++;
-                   print(dem);
-             }
-             ),
-           )
            ),
-          ]
-        ),
+         ),
+         SizedBox(height: 10.0,),
+         Text(
+           "Sasuke Uchiha",
+           style: TextStyle(
+             color: Colors.deepOrange,
+             letterSpacing: 2.0,
+              fontSize: 21.0,
+             fontWeight: FontWeight.bold,
+           ),
+         ),
+         SizedBox(height: 20.0,),
+         Text(
+           "Clan",
+           style: TextStyle(
+             color: Colors.black,
+             letterSpacing: 2.0,
 
-        backgroundColor: Colors.yellow[300],
+           ),
+         ),
+         SizedBox(height: 10.0,),
+         Text(
+           "Uchiha Clan",
+           style: TextStyle(
+             color: Colors.deepOrange,
+             letterSpacing: 2.0,
+             fontSize: 21.0,
+             fontWeight: FontWeight.bold,
+           ),
+         ),
+         SizedBox(height: 20.0,),
+         Row(
+           children: <Widget>[
+             Icon(
+               Icons.email,
+               color: Colors.deepOrange,
+             ),
+             Text(
+               "Sukon@Deez.Nuts",
+               style: TextStyle(
+                 fontWeight: FontWeight.normal
+               ),
+             ),
+
+           ],
+         )
+       ],
+
       ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.end,
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children:<Widget>[
-      Row(
-
-        children: <Widget>[
-          Center(
-         child: Container(
-           padding: EdgeInsets.all(10.0),
-            color: Colors.grey[300],
-              child: Text('$dem'),
-          ),
-          ),
-          Container(
-            padding: EdgeInsets.fromLTRB(10, 0, 0, 455.0),
-
-              child: Image.asset("Assets/bond.jpg"),
-
-          )
-        ],
-      ),
-        ],
-      ),
-
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          print("You are An idiot");
-        },
-        child: Text("Help"),
-        backgroundColor: Colors.blue[300],
       ),
     );
   }
 }
-
-//  icon button
-// Center(
-/* child: IconButton(
-onPressed: () {
-print("Warning");
-},
-icon: Icon(Icons.access_alarm),
-
-),
-),*/
