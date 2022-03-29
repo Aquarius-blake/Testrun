@@ -5,7 +5,7 @@ void main() => runApp(MaterialApp(
 
   home: Ninjac()
 ));
-const trew= "";
+String trew= "";
 class Ninjac extends StatelessWidget {
 
 
@@ -97,7 +97,7 @@ class Ninjac extends StatelessWidget {
       ),
         floatingActionButton: FloatingActionButton(
             onPressed: (){
-              const trew= "Access Denied";
+               trew= "Access Denied";
             }
         )
 
