@@ -21,6 +21,7 @@ class Ninjac extends StatelessWidget {
       body: Padding(
           padding: EdgeInsets.fromLTRB(30, 40, 30, 0),
      child: Column(
+       crossAxisAlignment: CrossAxisAlignment.start,
        children: <Widget>[
          Text(
            "Name",
@@ -30,13 +31,14 @@ class Ninjac extends StatelessWidget {
 
            ),
          ),
+         SizedBox(height: 10.0,),
          Text(
            "Sasuke Uchiha",
            style: TextStyle(
              color: Colors.deepOrange,
              letterSpacing: 2.0,
               fontSize: 21.0,
-
+             fontWeight: FontWeight.bold,
            ),
          )
        ],
