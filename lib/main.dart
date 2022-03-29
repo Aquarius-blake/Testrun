@@ -13,6 +13,13 @@ class Ninjac extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[300],
+        floatingActionButton: FloatingActionButton(
+          onPressed: (){
+
+            trew= "Access Denied";
+          },
+          child: Text("Find"),
+        ),
       appBar: AppBar(
 
         title: Text("Shinobi Card"),
