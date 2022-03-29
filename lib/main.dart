@@ -88,7 +88,7 @@ class Ninjac extends StatelessWidget {
                  letterSpacing: 1.5,
                ),
              ),
-
+              SizedBox(height: 10.0,),
              Text(
                '$trew',
                style: TextStyle(
@@ -103,13 +103,7 @@ class Ninjac extends StatelessWidget {
 
       ),
       ),
-        floatingActionButton: FloatingActionButton(
-            onPressed: (){
 
-               trew= "Access Denied";
-            },
-            child: Text("Find"),
-        )
 
     );
   }
