@@ -63,6 +63,10 @@ class Ninjac extends StatelessWidget {
          SizedBox(height: 20.0,),
          Row(
            children: <Widget>[
+             Icon(
+               Icons.email,
+               color: Colors.deepOrange,
+             )
 
            ],
          )
