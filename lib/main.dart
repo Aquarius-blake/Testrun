@@ -68,7 +68,10 @@ class Ninjac extends StatelessWidget {
                color: Colors.deepOrange,
              ),
              Text(
-               "Sukon@Deez.Nuts"
+               "Sukon@Deez.Nuts",
+               style: TextStyle(
+                 fontWeight: FontWeight.normal
+               ),
              ),
 
            ],
