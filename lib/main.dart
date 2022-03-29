@@ -101,6 +101,9 @@ class Ninjac extends StatelessWidget {
            ],
          ),
          SizedBox(height: 10.0,),
+         AlertDialog(
+           content: Text("$trew"),
+         ),
          Text(
            "$trew",
            style: TextStyle(
