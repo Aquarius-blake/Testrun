@@ -2,9 +2,10 @@
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
+
   home: Ninjac()
 ));
-
+String trew= "";
 class Ninjac extends StatelessWidget {
 
 
@@ -89,11 +90,17 @@ class Ninjac extends StatelessWidget {
              ),
 
            ],
-         )
+         ),
        ],
 
       ),
       ),
+        floatingActionButton: FloatingActionButton(
+            onPressed: (){
+               trew= "Access Denied";
+            }
+        )
+
     );
   }
 }
