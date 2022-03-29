@@ -13,16 +13,28 @@ class Ninjac extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey[300],
       appBar: AppBar(
+
         title: Text("Shinobi Card"),
         centerTitle: true,
         backgroundColor: Colors.black,
         elevation: 0.0,
+
       ),
       body: Padding(
           padding: EdgeInsets.fromLTRB(30, 40, 30, 0),
      child: Column(
        crossAxisAlignment: CrossAxisAlignment.start,
        children: <Widget>[
+         Center(
+           child: CircleAvatar(
+             backgroundImage: AssetImage("Assets/nin.png"),
+        radius: 40.0,
+           ),
+         ),
+         Divider(
+           height: 50.0,
+           color: Colors.black,
+         ),
          Text(
            "Name",
            style: TextStyle(
