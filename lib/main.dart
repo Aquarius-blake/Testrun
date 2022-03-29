@@ -11,11 +11,11 @@ class Ninjac extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.amber[300],
+      backgroundColor: Colors.yellow[300],
       appBar: AppBar(
         title: Text("Ninja"),
         centerTitle: true,
-        backgroundColor: Colors.red[300],
+        backgroundColor: Colors.red[400],
         elevation: 0.0,
       ),
     );
