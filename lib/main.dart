@@ -59,6 +59,12 @@ class Ninjac extends StatelessWidget {
              fontSize: 21.0,
              fontWeight: FontWeight.bold,
            ),
+         ),
+         SizedBox(height: 20.0,),
+         Row(
+           children: <Widget>[
+
+           ],
          )
        ],
 
