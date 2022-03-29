@@ -107,7 +107,7 @@ class Ninjac extends StatelessWidget {
             onPressed: (){
 
                trew= "Access Denied";
-            }
+            },
             child: Text("Find"),
         )
 
