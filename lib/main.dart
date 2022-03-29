@@ -13,6 +13,8 @@ class Ninjac extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Ninja"),
+        centerTitle: true,
+        backgroundColor: Colors.red[300],
       ),
     );
   }
