@@ -13,7 +13,7 @@ class Ninjac extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey[300],
       appBar: AppBar(
-        title: Text("Ninja"),
+        title: Text("Shinobi Card"),
         centerTitle: true,
         backgroundColor: Colors.black,
         elevation: 0.0,
@@ -67,10 +67,12 @@ class Ninjac extends StatelessWidget {
                Icons.email,
                color: Colors.deepOrange,
              ),
+             SizedBox(width: 10.0,),
              Text(
                "Sukon@Deez.Nuts",
                style: TextStyle(
-                 fontWeight: FontWeight.normal
+                 fontWeight: FontWeight.normal,
+                 letterSpacing: 1.5,
                ),
              ),
 
