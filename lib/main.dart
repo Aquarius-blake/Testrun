@@ -5,14 +5,22 @@ void main() => runApp(MaterialApp(
 
   home: Ninjac()
 ));
-String trew= "";
-class Ninjac extends StatelessWidget {
 
+class Ninjac extends StatelessWidget {
+  String trew;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[300],
+        floatingActionButton: FloatingActionButton(
+          onPressed: (){
+
+            trew= "Access Denied";
+
+          },
+          child: Text("Find"),
+        ),
       appBar: AppBar(
 
         title: Text("Shinobi Card"),
@@ -89,17 +97,23 @@ class Ninjac extends StatelessWidget {
                ),
              ),
 
+
+
            ],
          ),
-       ],
+         SizedBox(height: 10.0,),
+
+         Text(
+           "$trew",
+           style: TextStyle(
+             fontWeight: FontWeight.normal,
+             letterSpacing: 1.5,
+           ),
+         ),  ],
 
       ),
       ),
-        floatingActionButton: FloatingActionButton(
-            onPressed: (){
-               trew= "Access Denied";
-            }
-        )
+
 
     );
   }
