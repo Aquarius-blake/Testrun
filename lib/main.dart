@@ -18,6 +18,31 @@ class Ninjac extends StatelessWidget {
         backgroundColor: Colors.black,
         elevation: 0.0,
       ),
+      body: Padding(
+          padding: EdgeInsets.fromLTRB(30, 40, 30, 0),
+     child: Column(
+       children: <Widget>[
+         Text(
+           "Name",
+           style: TextStyle(
+             color: Colors.black,
+             letterSpacing: 2.0,
+
+           ),
+         ),
+         Text(
+           "Sasuke",
+           style: TextStyle(
+             color: Colors.deepOrange,
+             letterSpacing: 2.0,
+              fontSize: 21.0,
+
+           ),
+         )
+       ],
+
+      ),
+      ),
     );
   }
 }
