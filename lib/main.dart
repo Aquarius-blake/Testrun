@@ -5,9 +5,9 @@ void main() => runApp(MaterialApp(
 
   home: Ninjac()
 ));
-String trew= "";
-class Ninjac extends StatelessWidget {
 
+class Ninjac extends StatelessWidget {
+  String trew;
 
   @override
   Widget build(BuildContext context) {
@@ -89,6 +89,14 @@ class Ninjac extends StatelessWidget {
                ),
              ),
 
+             Text(
+               '$trew',
+               style: TextStyle(
+                 fontWeight: FontWeight.normal,
+                 letterSpacing: 1.5,
+               ),
+             ),
+
            ],
          ),
        ],
@@ -97,6 +105,7 @@ class Ninjac extends StatelessWidget {
       ),
         floatingActionButton: FloatingActionButton(
             onPressed: (){
+
                trew= "Access Denied";
             }
         )
