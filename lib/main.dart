@@ -128,6 +128,8 @@ class shino extends StatefulWidget {
 }
 
 class _shinoState extends State<shino> {
+  String find;
+
   @override
   Widget build(BuildContext context) {
     return Container();
