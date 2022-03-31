@@ -118,3 +118,18 @@ class Ninjac extends StatelessWidget {
     );
   }
 }
+
+
+class shino extends StatefulWidget {
+
+
+  @override
+  State<shino> createState() => _shinoState();
+}
+
+class _shinoState extends State<shino> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
