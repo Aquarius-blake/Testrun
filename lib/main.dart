@@ -12,7 +12,7 @@ class Ninjac extends StatefulWidget {
 }
 
 class _NinjacState extends State<Ninjac> {
-  String trew;
+  String trew=" ";
 
   @override
   Widget build(BuildContext context) {
@@ -20,8 +20,11 @@ class _NinjacState extends State<Ninjac> {
       backgroundColor: Colors.grey[300],
         floatingActionButton: FloatingActionButton(
           onPressed: (){
+              setState(() {
+                trew= "Access Denied";
 
-            trew= "Access Denied";
+              });
+
 
           },
           child: Text("Find"),
