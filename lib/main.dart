@@ -6,7 +6,12 @@ void main() => runApp(MaterialApp(
   home: Ninjac()
 ));
 
-class Ninjac extends StatelessWidget {
+class Ninjac extends StatefulWidget {
+  @override
+  _NinjacState createState() => _NinjacState();
+}
+
+class _NinjacState extends State<Ninjac> {
   String trew;
 
   @override
@@ -119,19 +124,3 @@ class Ninjac extends StatelessWidget {
   }
 }
 
-
-class shino extends StatefulWidget {
-
-
-  @override
-  State<shino> createState() => _shinoState();
-}
-
-class _shinoState extends State<shino> {
-  String find;
-
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
