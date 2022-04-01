@@ -112,7 +112,7 @@ class _NinjacState extends State<Ninjac> {
 
            ],
          ),
-         SizedBox(height: 10.0,),
+         SizedBox(height: 10.5,),
 
          Text(
            "$trew",
