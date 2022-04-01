@@ -13,7 +13,7 @@ class Ninjac extends StatefulWidget {
 }
 
 class _NinjacState extends State<Ninjac> {
-  String trew;
+  String trew="";
 
   @override
   Widget build(BuildContext context) {
@@ -113,13 +113,7 @@ class _NinjacState extends State<Ninjac> {
          ),
          SizedBox(height: 10.5,),
 
-         Text(
-           "$trew",
-           style: TextStyle(
-             fontWeight: FontWeight.normal,
-             letterSpacing: 1.5,
-           ),
-         ), 
+
          AlertDialog(
            content: Text(
                "$trew",
