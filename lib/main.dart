@@ -122,7 +122,12 @@ class _NinjacState extends State<Ninjac> {
            ),
          ), 
          AlertDialog(
-           content: Text("$trew"),
+           content: Text(
+               "$trew",
+             style: TextStyle(
+
+             ),
+           ),
          )
        ],
 
