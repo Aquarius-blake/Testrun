@@ -1,4 +1,6 @@
 
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
@@ -22,8 +24,9 @@ class _NinjacState extends State<Ninjac> {
           onPressed: (){
               setState(() {
                 trew= "Access Denied";
-
-              });
+              },
+              
+              );
 
 
           },
@@ -117,7 +120,11 @@ class _NinjacState extends State<Ninjac> {
              fontWeight: FontWeight.normal,
              letterSpacing: 1.5,
            ),
-         ),  ],
+         ), 
+         AlertDialog(
+           content: Text("$trew"),
+         )
+       ],
 
       ),
       ),
