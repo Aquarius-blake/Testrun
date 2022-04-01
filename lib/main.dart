@@ -34,7 +34,7 @@ class _NinjacState extends State<Ninjac> {
         ),
       appBar: AppBar(
 
-        title: Text("Shinobi Card"),
+        title: Text("Shinobi Data"),
         centerTitle: true,
         backgroundColor: Colors.black,
         elevation: 0.0,
