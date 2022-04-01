@@ -14,7 +14,7 @@ class Ninjac extends StatefulWidget {
 }
 
 class _NinjacState extends State<Ninjac> {
-  String trew=" ";
+  String trew;
 
   @override
   Widget build(BuildContext context) {
