@@ -1,5 +1,4 @@
 
-import 'dart:html';
 
 import 'package:flutter/material.dart';
 
@@ -127,9 +126,10 @@ class _NinjacState extends State<Ninjac> {
              style: TextStyle(
                   letterSpacing: 1.7,
 
+
              ),
            ),
-         )
+        elevation: 0.0, )
        ],
 
       ),
