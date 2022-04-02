@@ -67,7 +67,7 @@ class _NinjacState extends State<Ninjac> {
            "Sasuke Uchiha",
            style: TextStyle(
              color: Colors.deepOrange,
-             letterSpacing: 2.0,
+             letterSpacing: 2.1,
               fontSize: 21.0,
              fontWeight: FontWeight.bold,
            ),
