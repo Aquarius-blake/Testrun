@@ -40,7 +40,7 @@ class _NinjacState extends State<Ninjac> {
 
       ),
       body: Padding(
-          padding: EdgeInsets.fromLTRB(30, 40, 30, 0),
+          padding: EdgeInsets.fromLTRB(29, 40, 30, 0),
      child: Column(
        crossAxisAlignment: CrossAxisAlignment.start,
        children: <Widget>[
