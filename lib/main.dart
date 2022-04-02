@@ -77,7 +77,7 @@ class _NinjacState extends State<Ninjac> {
            "Clan",
            style: TextStyle(
              color: Colors.black,
-             letterSpacing: 2.0,
+             letterSpacing: 2.1,
 
            ),
          ),
