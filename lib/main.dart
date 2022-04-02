@@ -118,7 +118,7 @@ class _NinjacState extends State<Ninjac> {
            content: Text(
                "$trew",
              style: TextStyle(
-                  letterSpacing: 1.7,
+                  letterSpacing: 1.1,
 
 
              ),
