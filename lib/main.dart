@@ -1,4 +1,5 @@
 
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
@@ -6,8 +7,13 @@ void main() => runApp(MaterialApp(
   home: Ninjac()
 ));
 
-class Ninjac extends StatelessWidget {
-  String trew;
+class Ninjac extends StatefulWidget {
+  @override
+  _NinjacState createState() => _NinjacState();
+}
+
+class _NinjacState extends State<Ninjac> {
+  String trew="";
 
   @override
   Widget build(BuildContext context) {
@@ -15,22 +21,26 @@ class Ninjac extends StatelessWidget {
       backgroundColor: Colors.grey[300],
         floatingActionButton: FloatingActionButton(
           onPressed: (){
+              setState(() {
+                trew= "Access Denied";
+              },
+              
+              );
 
-            trew= "Access Denied";
 
           },
           child: Text("Find"),
         ),
       appBar: AppBar(
 
-        title: Text("Shinobi Card"),
+        title: Text("Shinobi Data"),
         centerTitle: true,
         backgroundColor: Colors.black,
         elevation: 0.0,
 
       ),
       body: Padding(
-          padding: EdgeInsets.fromLTRB(30, 40, 30, 0),
+          padding: EdgeInsets.fromLTRB(29, 40, 30, 0),
      child: Column(
        crossAxisAlignment: CrossAxisAlignment.start,
        children: <Widget>[
@@ -52,12 +62,12 @@ class Ninjac extends StatelessWidget {
 
            ),
          ),
-         SizedBox(height: 10.0,),
+         SizedBox(height: 10.5,),
          Text(
            "Sasuke Uchiha",
            style: TextStyle(
              color: Colors.deepOrange,
-             letterSpacing: 2.0,
+             letterSpacing: 2.1,
               fontSize: 21.0,
              fontWeight: FontWeight.bold,
            ),
@@ -67,7 +77,7 @@ class Ninjac extends StatelessWidget {
            "Clan",
            style: TextStyle(
              color: Colors.black,
-             letterSpacing: 2.0,
+             letterSpacing: 2.1,
 
            ),
          ),
@@ -101,15 +111,21 @@ class Ninjac extends StatelessWidget {
 
            ],
          ),
-         SizedBox(height: 10.0,),
+         SizedBox(height: 10.5,),
 
-         Text(
-           "$trew",
-           style: TextStyle(
-             fontWeight: FontWeight.normal,
-             letterSpacing: 1.5,
+
+         AlertDialog(
+           content: Text(
+               "$trew",
+             style: TextStyle(
+                  letterSpacing: 1.1,
+
+
+             ),
            ),
-         ),  ],
+        elevation: 0.0,
+         backgroundColor: Colors.grey[200],)
+       ],
 
       ),
       ),
@@ -118,3 +134,4 @@ class Ninjac extends StatelessWidget {
     );
   }
 }
+
