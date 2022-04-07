@@ -39,6 +39,7 @@ Widget getwid(){
           onPressed: (){
               setState(() {
                 trew= "Access Denied";
+                cont++;
               },
               
               );
@@ -128,19 +129,8 @@ Widget getwid(){
            ],
          ),
          SizedBox(height: 10.5,),
+    getwid()
 
-
-         AlertDialog(
-           content: Text(
-               "$trew",
-             style: TextStyle(
-                  letterSpacing: 1.1,
-
-
-             ),
-           ),
-        elevation: 0.0,
-         backgroundColor: Colors.grey[200],)
        ],
 
       ),
