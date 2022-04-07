@@ -14,7 +14,23 @@ class Ninjac extends StatefulWidget {
 
 class _NinjacState extends State<Ninjac> {
   String trew="";
+  int cont=0;
+Widget getwid(){
+  if (cont>0){
+    return AlertDialog(
+      content: Text("Access Denied",
+        style: TextStyle(
+          letterSpacing: 1.1,
 
+
+        ),
+      ),
+      elevation: 2.0,
+      backgroundColor: Colors.grey[200],
+
+    );
+  }
+}
   @override
   Widget build(BuildContext context) {
     return Scaffold(
