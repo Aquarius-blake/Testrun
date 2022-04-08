@@ -34,6 +34,11 @@ class _NinjacState extends State<Ninjac> {
       return Container();
     }
   }
+
+void testing() async{
+
+}
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
