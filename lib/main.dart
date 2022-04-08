@@ -37,6 +37,9 @@ class _NinjacState extends State<Ninjac> {
 
 void testing() async{
 
+    Future.delayed(Duration(seconds: 2),(
+    ){}
+    );
 }
 
   @override
