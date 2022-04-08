@@ -37,8 +37,12 @@ class _NinjacState extends State<Ninjac> {
 
 void testing() async{
 
-    Future.delayed(Duration(seconds: 2),(
-    ){}
+    Future.delayed(Duration(seconds: 2),(){
+      cont=0;
+      setState(() {
+
+      });
+    }
     );
 }
 
