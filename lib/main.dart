@@ -20,7 +20,7 @@ class _NinjacState extends State<Ninjac> {
       return AlertDialog(
         content: Text("Access Denied",
           style: TextStyle(
-            letterSpacing: 1.1,
+            letterSpacing: 1.2,
 
 
           ),
