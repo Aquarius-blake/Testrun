@@ -40,7 +40,7 @@ void testing() async{
     Future.delayed(Duration(seconds: 3),(){
       cont=0;
       setState(() {
-
+        cont=0;
       });
     }
     );
@@ -146,6 +146,7 @@ void testing() async{
             SizedBox(height: 10.5,),
             getwid()
 
+
           ],
 
         ),
@@ -153,6 +154,7 @@ void testing() async{
 
 
     );
+
   }
 }
 
