@@ -37,7 +37,7 @@ class _NinjacState extends State<Ninjac> {
 
 void testing() async{
 
-    Future.delayed(Duration(seconds: 3),(){
+    Future.delayed(Duration(seconds: 5),(){
       cont=0;
       setState(() {
         cont=0;
@@ -48,6 +48,7 @@ void testing() async{
 
   @override
   Widget build(BuildContext context) {
+    testing();
     return Scaffold(
       backgroundColor: Colors.grey[300],
       floatingActionButton: FloatingActionButton(
