@@ -18,6 +18,7 @@ class _NinjacState extends State<Ninjac> {
   Widget getwid () {
     if (cont>0){
       return AlertDialog(
+
         content: Text("Access Denied",
           style: TextStyle(
             letterSpacing: 1.2,
