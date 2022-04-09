@@ -31,8 +31,17 @@ fontSize: 10,
   fontStyle: FontStyle.italic,
 ),
 ),
-  SizedBox(height: 5.0,)
-  
+  SizedBox(height: 5.0,),
+
+  Text(
+    Dat.name,
+    textAlign: TextAlign.start,
+    style: TextStyle(
+      fontSize: 10,
+      fontStyle: FontStyle.italic,
+    ),
+  ),
+
 ],
       ),
     );
