@@ -21,7 +21,10 @@ class _p2State extends State<p2> {
 margin: EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0),
 
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+children: [
 
+],
       ),
     );
   }
