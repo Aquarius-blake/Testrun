@@ -63,7 +63,7 @@ fontSize: 12,
             Icon(Icons.wifi),
             Center(
               child: Padding(
-                padding: const EdgeInsets.fromLTRB(30.0,0,0,0),
+                padding: const EdgeInsets.fromLTRB(40.0,0,0,0),
                 child: Text(
                   "Details",
                   style: TextStyle(
