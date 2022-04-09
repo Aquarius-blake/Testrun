@@ -16,6 +16,10 @@ class _p2State extends State<p2> {
     Dat(name: "Rank",info: "Special Jounin")
   ];
 
+  Widget temp(Dat){
+    return Card();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
