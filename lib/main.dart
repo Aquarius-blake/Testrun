@@ -26,7 +26,7 @@ class _NinjacState extends State<Ninjac> {
 
           ),
         ),
-        elevation: 2.0,
+        elevation: 3.0,
         backgroundColor: Colors.grey[200],
 
       );
