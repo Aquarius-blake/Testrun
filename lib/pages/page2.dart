@@ -17,7 +17,9 @@ class _p2State extends State<p2> {
   ];
 
   Widget temp(Dat){
-    return Card();
+    return Card(
+margin: EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0),
+    );
   }
 
   @override
