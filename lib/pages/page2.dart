@@ -13,7 +13,9 @@ class _p2State extends State<p2> {
     return Scaffold(
 appBar: AppBar(
 title: Row(
+children:<Widget> [
 
+],
 ),
 ),
     );
