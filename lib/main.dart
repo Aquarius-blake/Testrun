@@ -156,7 +156,12 @@ void testing() async{
             FlatButton(
                 onPressed: (){},
                 color: Colors.black,
-                child: Text("Next page")
+                child: Text(
+                  "Next page",
+                  style: TextStyle(
+
+                  ),
+                )
             ),
 
 
