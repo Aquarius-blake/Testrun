@@ -152,7 +152,7 @@ void testing() async{
             ),
             SizedBox(height: 10.5,),
             getwid(),
-            SizedBox(height: 10.5,),
+            SizedBox(height: 20.5,),
             FlatButton(
                 onPressed: (){},
                 color: Colors.black,
