@@ -36,9 +36,9 @@ class _NinjacState extends State<Ninjac> {
     }
   }
 
-void testing() async{
+  void testing() async{
 
-   await Future.delayed(Duration(seconds: 5),(){
+    await Future.delayed(Duration(seconds: 5),(){
       cont=0;
 
     }
@@ -50,7 +50,7 @@ void testing() async{
       });
     }
     );
-}
+  }
 
   @override
   Widget build(BuildContext context) {
