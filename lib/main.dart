@@ -107,7 +107,7 @@ class _NinjacState extends State<Ninjac> {
             ),
             SizedBox(height: 10.5,),
             Text(
-              "Sasuke Uchiha",
+              "Itachi Uchiha",
               style: TextStyle(
                 color: Colors.deepOrange,
                 letterSpacing: 2.1,
