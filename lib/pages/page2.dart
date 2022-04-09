@@ -20,7 +20,7 @@ class _p2State extends State<p2> {
   Widget temp(Dat){
     return Card(
 margin: EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0),
-elevation: 4.0,
+elevation: 5.0,
       child: Padding(
         padding: const EdgeInsets.all(12.0),
         child: Column(
