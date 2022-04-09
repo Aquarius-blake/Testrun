@@ -23,7 +23,11 @@ margin: EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
 children: <Widget>[
+Text(
+  Dat.name,
 
+)
+  
 ],
       ),
     );
