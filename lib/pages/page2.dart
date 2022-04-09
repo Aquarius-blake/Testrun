@@ -39,7 +39,7 @@ fontSize: 12,
     Dat.info,
     textAlign: TextAlign.start,
     style: TextStyle(
-        fontSize: 20,
+        fontSize: 20.0,
         fontStyle: FontStyle.italic,
     ),
   ),
