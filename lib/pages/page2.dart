@@ -11,6 +11,7 @@ class _p2State extends State<p2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[200],
 appBar: AppBar(
   elevation:2.5 ,
 title: Row(
