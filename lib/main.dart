@@ -151,18 +151,19 @@ void testing() async{
               ],
             ),
             SizedBox(height: 10.5,),
-            getwid(),
-            SizedBox(height: 30.5,),
             FlatButton(
                 onPressed: (){},
                 color: Colors.black,
                 child: Text(
                   "Next page",
                   style: TextStyle(
-color: Colors.white,
+                    color: Colors.white,
                   ),
                 )
             ),
+            getwid(),
+            SizedBox(height: 30.5,),
+
 
 
 
