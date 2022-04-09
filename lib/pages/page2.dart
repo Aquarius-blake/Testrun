@@ -13,7 +13,7 @@ class _p2State extends State<p2> {
     Dat(name: "Combat Type",info: "Close Combat"),
     Dat(name:"Speciality",info: "Ninjutsu"),
     Dat(name: "Ultimate Technique",info: "Susano\'o: Amatarasu Flame Control"),
-Dat(name: "Rank",info: "Special Jounin")
+    Dat(name: "Rank",info: "Special Jounin")
   ];
 
   @override
