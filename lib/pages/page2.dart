@@ -13,6 +13,7 @@ class _p2State extends State<p2> {
     return Scaffold(
       backgroundColor: Colors.grey[200],
 appBar: AppBar(
+  backgroundColor: Colors.black,
   elevation:2.5 ,
 title: Row(
 children:<Widget> [
