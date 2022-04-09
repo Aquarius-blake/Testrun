@@ -161,7 +161,7 @@ class _NinjacState extends State<Ninjac> {
                 },
                 color: Colors.black,
                 child: Text(
-                  "Next page",
+                  "Details",
                   style: TextStyle(
                     color: Colors.white,
                   ),
