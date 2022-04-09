@@ -20,8 +20,10 @@ class _p2State extends State<p2> {
     return Card(
 margin: EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0),
 
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
+      child: Padding(
+        padding: const EdgeInsets.all(12.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
 children: <Widget>[
 Text(
   Dat.name,
@@ -37,12 +39,13 @@ fontSize: 10,
     Dat.info,
     textAlign: TextAlign.start,
     style: TextStyle(
-      fontSize: 15,
-      fontWeight: FontWeight.bold,
+        fontSize: 15,
+        fontWeight: FontWeight.bold,
     ),
   ),
 
 ],
+        ),
       ),
     );
   }
