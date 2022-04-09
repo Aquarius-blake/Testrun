@@ -12,6 +12,7 @@ class _p2State extends State<p2> {
   Widget build(BuildContext context) {
     return Scaffold(
 appBar: AppBar(
+  elevation:2.5 ,
 title: Row(
 children:<Widget> [
   Icon(Icons.wifi),
