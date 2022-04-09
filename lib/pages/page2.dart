@@ -18,13 +18,16 @@ title: Row(
 children:<Widget> [
   Icon(Icons.wifi),
   Center(
-    child: Text(
-        "Page 2",
-      style: TextStyle(
+    child: Padding(
+      padding: const EdgeInsets.fromLTRB(12.0,0,0,0),
+      child: Text(
+          "Page 2",
+        style: TextStyle(
 fontWeight: FontWeight.bold,
 letterSpacing: 1.5,
 
 
+        ),
       ),
     ),
   )
