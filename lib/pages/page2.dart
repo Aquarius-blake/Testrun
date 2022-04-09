@@ -34,11 +34,11 @@ fontSize: 10,
   SizedBox(height: 5.0,),
 
   Text(
-    Dat.name,
+    Dat.info,
     textAlign: TextAlign.start,
     style: TextStyle(
-      fontSize: 10,
-      fontStyle: FontStyle.italic,
+      fontSize: 15,
+      fontWeight: FontWeight.bold,
     ),
   ),
 
