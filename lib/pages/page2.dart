@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/Data.dart';
 
 class p2 extends StatefulWidget {
 
@@ -8,6 +9,8 @@ class p2 extends StatefulWidget {
 }
 
 class _p2State extends State<p2> {
+  List<Dat> something=[];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
