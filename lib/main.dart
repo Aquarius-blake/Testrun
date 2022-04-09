@@ -1,10 +1,14 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:flutter_app/pages/page2.dart';
 
 void main() => runApp(MaterialApp(
 
-    home: Ninjac()
+    home: Ninjac(),
+        routes: {
+      '/page2':(context)=> p2()
+        },
 ));
 
 class Ninjac extends StatefulWidget {
