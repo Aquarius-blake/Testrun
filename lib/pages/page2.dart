@@ -29,8 +29,8 @@ Text(
   Dat.name,
 textAlign: TextAlign.start,
 style: TextStyle(
-fontSize: 10,
-  fontStyle: FontStyle.italic,
+fontSize: 12,
+  fontWeight: FontWeight.bold,
 ),
 ),
   SizedBox(height: 5.0,),
@@ -39,8 +39,8 @@ fontSize: 10,
     Dat.info,
     textAlign: TextAlign.start,
     style: TextStyle(
-        fontSize: 15,
-        fontWeight: FontWeight.bold,
+        fontSize: 20,
+        fontStyle: FontStyle.italic,
     ),
   ),
 
