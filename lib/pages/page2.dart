@@ -79,9 +79,7 @@ fontSize: 10,
         ),
       ),
       body: Column(
-        children: <Widget>[
-
-        ],
+        children: something.map((e) => temp(e)).toList()
       ),
     );
   }
