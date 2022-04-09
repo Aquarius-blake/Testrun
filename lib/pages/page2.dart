@@ -65,7 +65,7 @@ fontSize: 12,
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(30.0,0,0,0),
                 child: Text(
-                  "Page 2",
+                  "Details",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     letterSpacing: 1.5,
