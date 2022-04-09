@@ -159,7 +159,7 @@ void testing() async{
                 child: Text(
                   "Next page",
                   style: TextStyle(
-
+color: Colors.white,
                   ),
                 )
             ),
