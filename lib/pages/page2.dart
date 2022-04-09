@@ -25,7 +25,9 @@ margin: EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0),
 children: <Widget>[
 Text(
   Dat.name,
+style: TextStyle(
 
+),
 )
   
 ],
