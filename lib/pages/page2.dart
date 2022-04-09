@@ -20,7 +20,7 @@ children:<Widget> [
   Icon(Icons.wifi),
   Center(
     child: Padding(
-      padding: const EdgeInsets.fromLTRB(12.0,0,0,0),
+      padding: const EdgeInsets.fromLTRB(30.0,0,0,0),
       child: Text(
           "Page 2",
         style: TextStyle(
