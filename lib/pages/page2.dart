@@ -14,7 +14,7 @@ class _p2State extends State<p2> {
 appBar: AppBar(
 title: Row(
 children:<Widget> [
-  Icon(Icons.wifi)
+  Icon(Icons.wifi),
 
 ],
 ),
