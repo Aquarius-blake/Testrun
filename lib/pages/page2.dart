@@ -15,6 +15,12 @@ appBar: AppBar(
 title: Row(
 children:<Widget> [
   Icon(Icons.wifi),
+  Text(
+      "Page 2",
+    style: TextStyle(
+
+    ),
+  )
 
 ],
 ),
