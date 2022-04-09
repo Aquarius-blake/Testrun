@@ -17,13 +17,15 @@ appBar: AppBar(
 title: Row(
 children:<Widget> [
   Icon(Icons.wifi),
-  Text(
-      "Page 2",
-    style: TextStyle(
+  Center(
+    child: Text(
+        "Page 2",
+      style: TextStyle(
 fontWeight: FontWeight.bold,
 letterSpacing: 1.5,
 
 
+      ),
     ),
   )
 
