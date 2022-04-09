@@ -26,7 +26,8 @@ children: <Widget>[
 Text(
   Dat.name,
 style: TextStyle(
-
+fontSize: 10,
+  fontStyle: FontStyle.italic,
 ),
 )
   
