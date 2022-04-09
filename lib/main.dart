@@ -7,7 +7,7 @@ void main() => runApp(MaterialApp(
 
     home: Ninjac(),
         routes: {
-      '/page2':(context)=> p2()
+      '/page-2':(context)=> p2()
         },
 ));
 
@@ -157,7 +157,7 @@ class _NinjacState extends State<Ninjac> {
             SizedBox(height: 10.5,),
             FlatButton(
                 onPressed: (){
-                  Navigator.pushNamed(context, '/page2');
+                  Navigator.pushNamed(context, '/page-2');
                 },
                 color: Colors.black,
                 child: Text(
