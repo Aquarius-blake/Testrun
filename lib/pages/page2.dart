@@ -30,7 +30,8 @@ style: TextStyle(
 fontSize: 10,
   fontStyle: FontStyle.italic,
 ),
-)
+),
+  SizedBox(height: 5.0,)
   
 ],
       ),
