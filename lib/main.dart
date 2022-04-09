@@ -151,8 +151,8 @@ void testing() async{
               ],
             ),
             SizedBox(height: 10.5,),
-            getwid()
-
+            getwid(),
+            SizedBox(height: 10.5,),
 
           ],
 
