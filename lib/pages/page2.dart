@@ -11,7 +11,9 @@ class _p2State extends State<p2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+appBar: AppBar(
 
+),
     );
   }
 }
