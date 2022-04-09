@@ -10,6 +10,8 @@ class p2 extends StatefulWidget {
 
 class _p2State extends State<p2> {
   List<Dat> something=[
+    Dat(name: "Title",info: "Shinobi of the Shadows"),
+    Dat(name: "Nickname",info: "Illusion God"),
     Dat(name: "Combat Type",info: "Close Combat"),
     Dat(name:"Speciality",info: "Ninjutsu"),
     Dat(name: "Ultimate Technique",info: "Susano\'o: Amatarasu Flame Control"),
