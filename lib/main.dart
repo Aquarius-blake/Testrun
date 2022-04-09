@@ -156,7 +156,9 @@ class _NinjacState extends State<Ninjac> {
             ),
             SizedBox(height: 10.5,),
             FlatButton(
-                onPressed: (){},
+                onPressed: (){
+                  Navigator.pushNamed(context, '/page2');
+                },
                 color: Colors.black,
                 child: Text(
                   "Next page",
