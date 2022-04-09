@@ -155,6 +155,7 @@ void testing() async{
             SizedBox(height: 10.5,),
             FlatButton(
                 onPressed: (){},
+                color: Colors.black,
                 child: Text("Next page")
             ),
 
