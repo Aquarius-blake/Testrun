@@ -78,6 +78,7 @@ fontSize: 12,
           ],
         ),
       ),
+      extendBody: true,
       body: Column(
         children: something.map((e) => temp(e)).toList()
       ),
