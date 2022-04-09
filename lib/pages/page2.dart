@@ -12,7 +12,9 @@ class _p2State extends State<p2> {
   Widget build(BuildContext context) {
     return Scaffold(
 appBar: AppBar(
+title: Row(
 
+),
 ),
     );
   }
