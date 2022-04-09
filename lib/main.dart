@@ -153,6 +153,12 @@ void testing() async{
             SizedBox(height: 10.5,),
             getwid(),
             SizedBox(height: 10.5,),
+            FlatButton(
+                onPressed: (){},
+                child: Text("Next page")
+            ),
+
+
 
           ],
 
