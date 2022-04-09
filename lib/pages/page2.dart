@@ -19,6 +19,7 @@ children:<Widget> [
       "Page 2",
     style: TextStyle(
 fontWeight: FontWeight.bold,
+letterSpacing: 1.5,
 
 
     ),
